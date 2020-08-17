@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(243, 243, 243);
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-right: 1px solid black;
+}
+
+button {
+    padding: 3px 7px;
+    margin: 10px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: #5e4500;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.users-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: fit-content;
+    height: 100%;
+    margin-left: 15px;
+    overflow: scroll;
+    
+
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: solid 1px black;
+}
+
+.users {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.person,
+.wealth {
+    list-style: none;
+}
+
+h3 {
+   margin-right: 50px; 
+}
+
+.person {
+    margin-right: 20px;
+}
